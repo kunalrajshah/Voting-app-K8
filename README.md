@@ -185,4 +185,15 @@ AWS | Docker | Kubernetes | Terraform
 
 ```
 ```
+## Vote Application
+
+![Vote Application](Screenshots/Voting-app-blueprint)
+
+## Result Application
+
+![Result Application](Screenshots/Result)
+
+## Kubernetes Voting app UI
+
+![Voting app UI](Screenshots/voting-app)
 
