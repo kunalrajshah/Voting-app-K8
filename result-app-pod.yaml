@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: result
+  labels:
+    app: result
+spec:
+  containers:
+   - name: result
+     image: dockersamples/examplevotingapp_result
+     env:
+      - name: POSTGRES_HOST
+        value: db
+      - name: POSTGRES_USER
+        value: postgres
+      - name: POSTGRES_PASSWORD
+        value: postgres
+     ports:
+      - containerPort: 80
+        name: result
+  
